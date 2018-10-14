@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+div {
+    text-align: center;
+    margin: auto;
+}
+
+input{
+    padding: 15px;
+}
