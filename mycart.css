@@ -1,0 +1,16 @@
+body {
+    background-color: rgba(88, 69, 119, 0);
+    color: rgb(175, 116, 129);
+    
+}
+
+div {
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.input{
+    padding: 50px;
+}
