@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sales Record</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header> 
+      <div class = "topnav">
+          <ul>
+              <li><a href="sales record.html">sales</a></li>
+              <li><a href="add.html">add_products</a></li>
+              <li><a href="product.html">view_products</a></li> 
+              <li><a href="index.html">logout</a></li>
+          </ul>
+      </div>
+
+<section>
+ <table style="margin-top: 20px">
+  <button id="modalBtn" class="button" style = 'float:right; margin-right: 138px ;margin-top: -70px'> Create a sale record</button>
+  <tr>
+    <th>Name</th>
+    <th>Quantity</th>
+    <th>Price</th>
+    <th>Date</th>
+  </tr>
+  <tr>
+    <td>apples</td>
+    <td>50</td>
+    <td>2000</td>
+    <td>12/10/2018</td>
+  </tr>
+  <tr>
+    <td>strawberries</td>
+    <td>30</td>
+    <td>15000</td>
+    <td>11/10/2018</td>
+  </tr>
+    <tr>
+    <td>lemons</td>
+    <td>50</td>
+    <td>2000</td>
+    <td>10/10/2018</td>
+  </tr>
+  <tr>
+    <td>peaches</td>
+    <td>60</td>
+    <td>4000</td>
+    <td>09/10/2018</td>
+  </tr>
+</table>
+</section>
+ 
+<div id="simpleModal" class="modal">
+   
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="closeBtn">&times;</span>
+      <h2>Create sale Record</h2>
+    </div>
+    <div class="modal-body">
+      <form>
+        <input type="text" name="name" placeholder="Name" required> <br>
+        <input type="text" name="quantity" placeholder="Quantity" required> <br>
+        <input type="text" name="price" placeholder="Price" required> <br>
+        <input type="text" name="date" placeholder=Date quantity" required><br>
+        <input type="submit" name="add_product" value="submit">
+      </form>
+     </div>
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+ </div>
+ <script src="js/myscript.js"></script>
+ </body>
+</html> 
