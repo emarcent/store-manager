@@ -1,11 +1,12 @@
-clean_json = {}
-clean_json["name"] = "laptops"
-clean_json["quantity"] = "5"
-clean_json["unit_price"] = "60000"
-clean_json["id_number"] = "08"
+product_data = {}
+product_data["name"] = "oranges"
+product_data["quantity"] = "5"
+product_data["unit_price"] = "6000"
+product_data["id_number"] = "08"
 
-missing_json = {}
-missing_json["name"] = ""
-missing_json["quantity"] = ""
-missing_json["unit_price"] = "60000"
-missing_json["id_number"] = "08"
+missing_product_data = {}
+missing_product_data["name"] = ""
+missing_product_data["quantity"] = ""
+missing_product_data["unit_price"] = "6000"
+missing_product_data["id_number"] = "08"
+
