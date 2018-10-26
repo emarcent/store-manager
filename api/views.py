@@ -33,7 +33,7 @@ def view_products():
     if len(products) == 0:
         return jsonify({
            "message": "products not found"
-        }), 404
+        }), 200
     all_products = [prod.name for prod in products]
     return jsonify(all_products), 200
 
