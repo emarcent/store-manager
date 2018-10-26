@@ -7,4 +7,4 @@ script:
   - "nosetest --with-coverage --cover-package=api"
   - "coverage report"
   after_success:
-  -coveralls
+  - coveralls
